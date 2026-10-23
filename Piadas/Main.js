@@ -61,19 +61,19 @@ var piadas = [
   new Piada(
     "O que a vaca foi fazer no espaço?",
     "Procurar o Vácuo.",
-    "blob:https://web.whatsapp.com/f35abdd8-a598-42d1-9a74-149f5231c715",
+    "img/cachorro.jfif",
     new Categoria("Trocadilhos")
   ),
   new Piada(
     "O que o tomate foi fazer no banco?",
     "Tirar extrato.",
-    "blob:https://web.whatsapp.com/f35abdd8-a598-42d1-9a74-149f5231c715",
+    "img/cachorro.jfif",
     new Categoria("Trocadilhos")
   ),
   new Piada(
     "Qual é o fim da picada?",
     "Quando o mosquito vai embora.",
-    "blob:https://web.whatsapp.com/f35abdd8-a598-42d1-9a74-149f5231c715",
+    "img/cachorro.jfif",
     new Categoria("Trocadilhos")
   ),
 ];
