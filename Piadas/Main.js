@@ -1,7 +1,7 @@
 import { Piada } from "./Piadas.js";
 import { Categoria } from "./Categorias.js";
 
-// Lista de piadas (cada piada cria a sua categoria direto, sem variáveis separadas)
+
 var piadas = [
   // Homem-Aranha
   new Piada(
@@ -15,19 +15,19 @@ var piadas = [
   new Piada(
     "Subir escadas é fácil",
     "Difícil é lembrar que você esqueceu algo lá embaixo.",
-    "https://cdn.discordapp.com/attachments/1392982710615543838/1512700591770701864/image.png?ex=6adc4c35&is=6adafab5&hm=aefa95db2538a0867e52965ef0896f708581ec630fe720a504ebe4477f71a309&",
+    "img/daniel.png",
     new Categoria("Escadas")
   ),
   new Piada(
     "Por que a escada foi promovida?",
     "Porque ela estava sempre subindo na vida.",
-    "https://cdn.discordapp.com/attachments/1392982710615543838/1512700591770701864/image.png?ex=6adc4c35&is=6adafab5&hm=aefa95db2538a0867e52965ef0896f708581ec630fe720a504ebe4477f71a309&",
+    "img/daniel.png",
     new Categoria("Escadas")
   ),
   new Piada(
     "Qual é o maior medo de uma escada?",
     "Ter uma crise de degraus.",
-    "https://cdn.discordapp.com/attachments/1392982710615543838/1512700591770701864/image.png?ex=6adc4c35&is=6adafab5&hm=aefa95db2538a0867e52965ef0896f708581ec630fe720a504ebe4477f71a309&",
+    "img/daniel.png",
     new Categoria("Escadas")
   ),
 
@@ -87,7 +87,7 @@ const badgeCategoria = document.getElementById("badgeCategoria");
 const tituloPiada = document.getElementById("tituloPiada");
 const textoPiada = document.getElementById("textoPiada");
 
-// Lista que vai guardar os nomes das categorias (sem repetir)
+// Lista que vai guardar os nomes das categorias
 let nomesCategorias = [];
 
 for (let i = 0; i < piadas.length; i++) {
