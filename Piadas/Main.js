@@ -10,6 +10,12 @@ var piadas = [
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1STnhI_Uz6yjxQWOHn6ySEjC1SpYDGRMoGY1lx_DHC7O9azR7GAYRZl8&s=10",
     new Categoria("Homem-Aranha")
   ),
+   new Piada(
+    "Eis Que Você é o Arthur Aranha",
+    "-Alexa ligar para amigos \n -Amigos não detectados \n -Alexa ligar para peões \n -Ok chefe ",
+    "https://tenor.com/view/ayanokoji-gif-19603856",
+    new Categoria("Homem-Aranha")
+  ),
 
   // Escadas
   new Piada(
