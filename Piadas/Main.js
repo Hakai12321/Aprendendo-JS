@@ -15,7 +15,7 @@ var piadas = [
     "-Alexa ligar para amigos \n -Amigos não detectados \n -Alexa ligar para peões \n -Ok chefe ",
     "https://media1.tenor.com/m/tPwUkYdFXO0AAAAC/checkmate-ayanokoji.gif",
     new Categoria("Homem-Aranha"),
-    "9Zj0JOHJR-s"
+    "9Zj0JOHJR-s&start=87"
   ),
 
   // Sul e meu pais
@@ -23,7 +23,8 @@ var piadas = [
     "Geração Nova",
     "A música que representa a geração do bufos é hey it's me it's verity ask me anything",
     "https://media.tenor.com/mjWIRXS6K6oAAAAM/verity-verity-minecraft.gif",
-    new Categoria("Bufos")
+    new Categoria("Bufos"),
+    "tVlKLpxyCBY&list=RDtVlKLpxyCBY&start=2"
   ),
 
 
