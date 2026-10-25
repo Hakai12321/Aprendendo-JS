@@ -5,8 +5,9 @@ export class Piada {
     #imagem;
     #categoria;
     #musica;
+    #inicio;  
 
-  constructor(titulo, texto, imagem, categoria,musica = "") {
+  constructor(titulo, texto, imagem, categoria,musica = "",inicio = 0) {
     if (!(categoria instanceof Categoria)) {
       alert("Categoria deve ser do tipo Categoria")
     }
@@ -15,6 +16,7 @@ export class Piada {
     this.#imagem = imagem;
     this.#categoria = categoria;
     this.#musica = musica;
+    this.#inicio = inicio; 
   }
 
   get titulo() { return this.#titulo; }
@@ -36,4 +38,7 @@ export class Piada {
 
     get musica() { return this.#musica; }
     set musica(musica) { this.#musica = musica; }
+    
+    get inicio() { return this.#inicio; }
+    set inicio(inicio) { this.#inicio = inicio; }
 }

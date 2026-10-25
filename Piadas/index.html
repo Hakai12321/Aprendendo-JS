@@ -27,6 +27,7 @@
         </div>
 
         <!-- Card da piada (começa escondido) -->
+        
         <div id="cardPiada" class="card shadow-sm d-none">
           <img id="imgPiada" class="card-img-top" alt="Imagem da piada">
           <div class="card-body">
@@ -34,13 +35,19 @@
             <h5 id="tituloPiada" class="card-title"></h5>
             <p id="textoPiada" class="card-text"></p>
           </div>
-          <iframe id="playerMusica" class="d-none" width="300" height="170" allow="autoplay" src=""></iframe>
+
         </div>
 
       </div>
     </div>
   </div>
 
+  <div id="areaMusica" class="d-none mt-3">
+    <div id="playerMusica"></div>
+    <label for="volume" class="form-label mt-2">Volume</label>
+    <input type="range" class="form-range" id="volume" min="0" max="100" value="50">
+  </div>
+  <script src="https://www.youtube.com/iframe_api"></script>
   <script type="module" src="Main.js"></script>
 </body>
 </html>

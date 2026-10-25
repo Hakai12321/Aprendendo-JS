@@ -15,7 +15,8 @@ var piadas = [
     "-Alexa ligar para amigos \n -Amigos não detectados \n -Alexa ligar para peões \n -Ok chefe ",
     "https://media1.tenor.com/m/tPwUkYdFXO0AAAAC/checkmate-ayanokoji.gif",
     new Categoria("Homem-Aranha"),
-    "9Zj0JOHJR-s&start=87"
+    "9Zj0JOHJR-s",
+    87
   ),
 
   // Sul e meu pais
@@ -24,7 +25,8 @@ var piadas = [
     "A música que representa a geração do bufos é hey it's me it's verity ask me anything",
     "https://media.tenor.com/mjWIRXS6K6oAAAAM/verity-verity-minecraft.gif",
     new Categoria("Bufos"),
-    "tVlKLpxyCBY&start=2"
+    "tVlKLpxyCBY",
+    1
   ),
 
 
@@ -103,7 +105,9 @@ const imgPiada = document.getElementById("imgPiada");
 const badgeCategoria = document.getElementById("badgeCategoria");
 const tituloPiada = document.getElementById("tituloPiada");
 const textoPiada = document.getElementById("textoPiada");
-const playerMusica = document.getElementById("playerMusica");
+const areaMusica = document.getElementById("areaMusica");
+const volume = document.getElementById("volume");
+let player = null;
 
 // Lista que vai guardar os nomes das categorias
 let nomesCategorias = [];
@@ -127,6 +131,42 @@ for (let i = 0; i < nomesCategorias.length; i++) {
 function sortear(lista) {
   return lista[Math.floor(Math.random() * lista.length)];
 }
+
+// Toca a música (cria o player na primeira vez, depois só troca o vídeo)
+function tocarMusica(codigo, inicio) {
+  areaMusica.classList.remove("d-none");
+
+  if (player === null) {
+    player = new YT.Player("playerMusica", {
+      width: 300,
+      height: 170,
+      videoId: codigo,
+      playerVars: { autoplay: 1, start: inicio },
+      events: {
+        onReady: function (evento) {
+          evento.target.setVolume(volume.value);
+        },
+      },
+    });
+  } else {
+    player.loadVideoById({ videoId: codigo, startSeconds: inicio });
+  }
+}
+
+// Para a música e esconde o player
+function pararMusica() {
+  areaMusica.classList.add("d-none");
+  if (player !== null) {
+    player.pauseVideo();
+  }
+}
+
+// Quando mexer na barra, muda o volume
+volume.addEventListener("input", function () {
+  if (player !== null) {
+    player.setVolume(volume.value);
+  }
+});
 
 // Mostra a piada no card
 function mostrarPiada() {
@@ -154,12 +194,9 @@ function mostrarPiada() {
 
   cardPiada.classList.remove("d-none");
   if (piada.musica !== "") {
-      playerMusica.src = "https://www.youtube.com/embed/" + piada.musica + "?autoplay=1";
-      playerMusica.classList.remove("d-none");
-    } else {
-      // Sem música: esvazia o src (isso para a anterior) e esconde
-    playerMusica.src = "";
-    playerMusica.classList.add("d-none");
+    tocarMusica(piada.musica, piada.inicio);
+  } else {
+    pararMusica();
   }
 }
 
