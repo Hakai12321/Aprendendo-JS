@@ -31,4 +31,7 @@ export class Piada {
         }
         this.#categoria = valor;
     }
+
+    get musica() { return this.#musica; }
+    set musica(musica) { this.#musica = musica; }
 }

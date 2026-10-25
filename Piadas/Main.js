@@ -14,8 +14,18 @@ var piadas = [
     "Eis Que Você é o Arthur Aranha",
     "-Alexa ligar para amigos \n -Amigos não detectados \n -Alexa ligar para peões \n -Ok chefe ",
     "https://media1.tenor.com/m/tPwUkYdFXO0AAAAC/checkmate-ayanokoji.gif",
-    new Categoria("Homem-Aranha")
+    new Categoria("Homem-Aranha"),
+    "9Zj0JOHJR-s"
   ),
+
+  // Sul e meu pais
+   new Piada(
+    "Geração Nova",
+    "A música que representa a geração do bufos é hey it's me it's verity ask me anything",
+    "https://media.tenor.com/mjWIRXS6K6oAAAAM/verity-verity-minecraft.gif",
+    new Categoria("Bufos")
+  ),
+
 
   // Escadas
   new Piada(
@@ -92,6 +102,7 @@ const imgPiada = document.getElementById("imgPiada");
 const badgeCategoria = document.getElementById("badgeCategoria");
 const tituloPiada = document.getElementById("tituloPiada");
 const textoPiada = document.getElementById("textoPiada");
+const playerMusica = document.getElementById("playerMusica");
 
 // Lista que vai guardar os nomes das categorias
 let nomesCategorias = [];
@@ -141,6 +152,14 @@ function mostrarPiada() {
   textoPiada.textContent = piada.texto;
 
   cardPiada.classList.remove("d-none");
+  if (piada.musica !== "") {
+      playerMusica.src = "https://www.youtube.com/embed/" + piada.musica + "?autoplay=1";
+      playerMusica.classList.remove("d-none");
+    } else {
+      // Sem música: esvazia o src (isso para a anterior) e esconde
+    playerMusica.src = "";
+    playerMusica.classList.add("d-none");
+  }
 }
 
 btnPiada.addEventListener("click", mostrarPiada);
