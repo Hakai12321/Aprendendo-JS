@@ -24,7 +24,7 @@ var piadas = [
     "A música que representa a geração do bufos é hey it's me it's verity ask me anything",
     "https://media.tenor.com/mjWIRXS6K6oAAAAM/verity-verity-minecraft.gif",
     new Categoria("Bufos"),
-    "tVlKLpxyCBY&list=RDtVlKLpxyCBY&start=2"
+    "tVlKLpxyCBY&start=2"
   ),
 
 
