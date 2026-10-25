@@ -8,7 +8,17 @@
 </head>
 <body class="bg-light">
 
+  
   <div class="container py-5">
+      <div id="areaMusica" class="d-none position-fixed bottom-0 end-0 m-3 p-2 bg-white rounded shadow" style="width: 200px;">
+      <!-- Player invisível (1 pixel, transparente) -->
+        <div style="position: absolute; width: 1px; height: 1px; opacity: 0; overflow: hidden; pointer-events: none;">
+          <div id="playerMusica"></div>
+        </div>
+
+        <label for="volume" class="form-label">Volume</label>
+        <input type="range" class="form-range" id="volume" min="0" max="100" value="50">
+    </div>
     <h1 class="text-center mb-4">Gerador de Piadas</h1>
 
     <div class="row justify-content-center">
@@ -42,11 +52,7 @@
     </div>
   </div>
 
-  <div id="areaMusica" class="d-none mt-3">
-    <div id="playerMusica"></div>
-    <label for="volume" class="form-label mt-2">Volume</label>
-    <input type="range" class="form-range" id="volume" min="0" max="100" value="50">
-  </div>
+
   <script src="https://www.youtube.com/iframe_api"></script>
   <script type="module" src="Main.js"></script>
 </body>
