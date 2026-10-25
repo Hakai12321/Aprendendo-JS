@@ -31,6 +31,17 @@ var piadas = [
   ),
 
 
+  //nicolas
+     new Piada(
+    "2 Barcos",
+    "Montar as rodas foi o mais dificil.",
+    "img\w nicolas.png",
+    new Categoria("Nicolas"),
+    "2AmxVmI-5FY",
+    
+  ),
+
+
   // Escadas
   new Piada(
     "Subir escadas é fácil",
