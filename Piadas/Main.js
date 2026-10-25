@@ -8,7 +8,8 @@ var piadas = [
     "Essa piada é nichada",
     "tururururuur tututut tuuuuuuuuu",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1STnhI_Uz6yjxQWOHn6ySEjC1SpYDGRMoGY1lx_DHC7O9azR7GAYRZl8&s=10",
-    new Categoria("Homem-Aranha")
+    new Categoria("Homem-Aranha"),
+    "zswT92VzOYM"
   ),
    new Piada(
     "Eis Que Você é o Arthur Aranha",
@@ -33,21 +34,17 @@ var piadas = [
   // Escadas
   new Piada(
     "Subir escadas é fácil",
-    "Difícil é lembrar que você esqueceu algo lá embaixo.",
+    "Difícil é Aura Monster ABIRAMAWE A IVARAMAFI",
     "img/daniel.png",
-    new Categoria("Escadas")
+    new Categoria("Escadas"),
+    "Yfi6Ax4Qkdc"
   ),
   new Piada(
     "Por que a escada foi promovida?",
-    "Porque ela estava sempre subindo na vida.",
+    "HAPPY BIRTHDAY DANIEL!!! did you really think I’d let this day pass quietly? I know the kind of power you vibe with, the kind that you vibe with",
     "img/daniel.png",
-    new Categoria("Escadas")
-  ),
-  new Piada(
-    "Qual é o maior medo de uma escada?",
-    "Ter uma crise de degraus.",
-    "img/daniel.png",
-    new Categoria("Escadas")
+    new Categoria("Escadas"),
+    "Yfi6Ax4Qkdc"
   ),
 
   // Animais
@@ -78,22 +75,26 @@ var piadas = [
 
   // Trocadilhos
   new Piada(
-    "O que a vaca foi fazer no espaço?",
-    "Procurar o Vácuo.",
-    "img/cachorro.jfif",
-    new Categoria("Trocadilhos")
+    "Fort then",
+    "Night",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKVrnHD4NGx11SikFOpwC9waD_r7SgsqarU9-iTcXPe6IRaDjSFBmKNL0&s=10",
+    new Categoria("Elden Ring"),
+    "6dck03SrEmM"
   ),
   new Piada(
-    "O que o tomate foi fazer no banco?",
-    "Tirar extrato.",
-    "img/cachorro.jfif",
-    new Categoria("Trocadilhos")
+    "Mist or",
+    "Beast",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkMxXXb9IjJrXRQh-mSq2HEzjzk-jcT6L8qh8fxLHjRQ&s=10",
+    new Categoria("Trocadilhos"),
+    "7eVlsmhNZjg"
   ),
   new Piada(
-    "Qual é o fim da picada?",
-    "Quando o mosquito vai embora.",
+    "Behold",
+    "Dog",
     "img/cachorro.jfif",
-    new Categoria("Trocadilhos")
+    new Categoria("Trocadilhos"),
+    "RnsntVvA-JY",
+    20
   ),
 ];
 
