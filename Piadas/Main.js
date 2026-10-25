@@ -16,15 +16,15 @@ var piadas = [
     "-Alexa ligar para amigos \n -Amigos não detectados \n -Alexa ligar para peões \n -Ok chefe ",
     "https://media1.tenor.com/m/tPwUkYdFXO0AAAAC/checkmate-ayanokoji.gif",
     new Categoria("Homem-Aranha"),
-    "9Zj0JOHJR-s"
+    "9Zj0JOHJR-s",
+    87
   ),
   new Piada(
     "Live do bufos",
     "Eis que você abre a live do bufos e encontra a 10/10 no canto da tela",
-    "img/arthur",
+    "img/arthur.png",
     new Categoria("Homem-Aranha"),
-    "9Zj0JOHJR-s",
-    87
+    "nfWlot6h_JM"
   ),
 
   // Sul e meu pais
