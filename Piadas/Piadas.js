@@ -4,6 +4,7 @@ export class Piada {
     #texto;
     #imagem;
     #categoria;
+    #musica;
 
   constructor(titulo, texto, imagem, categoria) {
     if (!(categoria instanceof Categoria)) {
@@ -13,6 +14,7 @@ export class Piada {
     this.#texto = texto;
     this.#imagem = imagem;
     this.#categoria = categoria;
+    this.#musica = musica;
   }
 
   get titulo() { return this.#titulo; }
