@@ -13,7 +13,7 @@ var piadas = [
    new Piada(
     "Eis Que Você é o Arthur Aranha",
     "-Alexa ligar para amigos \n -Amigos não detectados \n -Alexa ligar para peões \n -Ok chefe ",
-    "https://tenor.com/view/ayanokoji-gif-19603856",
+    "https://tenor.com/pt-BR/view/checkmate-ayanokoji-gif-13041321236230397165",
     new Categoria("Homem-Aranha")
   ),
 
