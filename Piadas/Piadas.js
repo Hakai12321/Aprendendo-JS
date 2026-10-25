@@ -6,7 +6,7 @@ export class Piada {
     #categoria;
     #musica;
 
-  constructor(titulo, texto, imagem, categoria) {
+  constructor(titulo, texto, imagem, categoria,musica = "") {
     if (!(categoria instanceof Categoria)) {
       alert("Categoria deve ser do tipo Categoria")
     }
