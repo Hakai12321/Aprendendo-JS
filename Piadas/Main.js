@@ -85,14 +85,14 @@ var piadas = [
     "Mist or",
     "Beast",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkMxXXb9IjJrXRQh-mSq2HEzjzk-jcT6L8qh8fxLHjRQ&s=10",
-    new Categoria("Trocadilhos"),
+    new Categoria("Elden Ring"),
     "7eVlsmhNZjg"
   ),
   new Piada(
     "Behold",
     "Dog",
     "img/cachorro.jfif",
-    new Categoria("Trocadilhos"),
+    new Categoria("Elden Ring"),
     "RnsntVvA-JY",
     20
   ),
