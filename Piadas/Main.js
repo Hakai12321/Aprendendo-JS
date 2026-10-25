@@ -35,7 +35,7 @@ var piadas = [
      new Piada(
     "2 Barcos",
     "Montar as rodas foi o mais dificil.",
-    "img\w nicolas.png",
+    "img/wnicolas.png",
     new Categoria("Nicolas"),
     "2AmxVmI-5FY",
     
