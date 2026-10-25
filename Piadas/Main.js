@@ -5,9 +5,9 @@ import { Categoria } from "./Categorias.js";
 var piadas = [
   // Homem-Aranha
   new Piada(
-    "Essa piada é nichada",
+    "Você sabe como miles morales nasceu? Pesquise!",
     "tururururuur tututut tuuuuuuuuu",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1STnhI_Uz6yjxQWOHn6ySEjC1SpYDGRMoGY1lx_DHC7O9azR7GAYRZl8&s=10",
+    "https://media.tenor.com/FlSyVTTS9mYAAAAM/polyester.gif",
     new Categoria("Homem-Aranha"),
     "zswT92VzOYM"
   ),
@@ -15,6 +15,13 @@ var piadas = [
     "Eis Que Você é o Arthur Aranha",
     "-Alexa ligar para amigos \n -Amigos não detectados \n -Alexa ligar para peões \n -Ok chefe ",
     "https://media1.tenor.com/m/tPwUkYdFXO0AAAAC/checkmate-ayanokoji.gif",
+    new Categoria("Homem-Aranha"),
+    "9Zj0JOHJR-s"
+  ),
+  new Piada(
+    "Live do bufos",
+    "Eis que você abre a live do bufos e encontra a 10/10 no canto da tela",
+    "img/arthur",
     new Categoria("Homem-Aranha"),
     "9Zj0JOHJR-s",
     87
