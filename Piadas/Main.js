@@ -75,7 +75,7 @@ var piadas = [
 
   // Trocadilhos
   new Piada(
-    "Fort then",
+    "Fort,",
     "Night",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKVrnHD4NGx11SikFOpwC9waD_r7SgsqarU9-iTcXPe6IRaDjSFBmKNL0&s=10",
     new Categoria("Elden Ring"),
@@ -84,7 +84,7 @@ var piadas = [
   new Piada(
     "Mist or",
     "Beast",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkMxXXb9IjJrXRQh-mSq2HEzjzk-jcT6L8qh8fxLHjRQ&s=10",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5vapzT_DRGyEJN8jOpjDbbFlT03XUCmjhVf-gveO0mA&s=10",
     new Categoria("Elden Ring"),
     "7eVlsmhNZjg"
   ),
